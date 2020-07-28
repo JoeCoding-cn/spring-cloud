@@ -1,0 +1,11 @@
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 10.211.55.4:8848
+
+  application:
+    name: consumer
+
+server:
+  port: 8763
